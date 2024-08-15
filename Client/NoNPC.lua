@@ -1,4 +1,7 @@
 CreateThread(function()
+  if (Config.NoNPC) then
+    print("^0[^2SUCCESS^0] ^4NoNPC^0 ^2successfully ^3started^0")
+  end
   while (Config.NoNPC) do
     Wait(0)
     if (Config.NoNPC) then
