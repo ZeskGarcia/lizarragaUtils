@@ -11,7 +11,7 @@ CreateThread(function()
   local _sleep = true
   while (Config.WeaponsDamage) do
     local _ped = PlayerPedId()
-    _sleep = not IsPedArmed(_ped)
+    _sleep = not IsPedArmed(_ped, 6)
     if (not _sleep) then
       DisableControlAction(1, 140, true)
       DisableControlAction(1, 141, true)
