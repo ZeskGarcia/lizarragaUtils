@@ -11,3 +11,6 @@ Config.Crouch = true
 
 -- Disable Q
 Config.DisableQ = true
+
+-- Weapons Damage
+Config.WeaponsDamage = true
